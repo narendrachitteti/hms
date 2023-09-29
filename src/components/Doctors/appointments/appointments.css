@@ -1,0 +1,158 @@
+.empid143appointments {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 5%;
+  margin-left: 7%;
+  width: 94%;
+}
+
+/* .empid143currentDateTime{
+  font-size: 20px;
+ display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-left: 225px;
+  margin-bottom: 15px;
+
+} */
+
+/* .Total-Appointments-empid143{
+margin-top: 24px;
+  padding-left: 20px;
+} */
+
+  .search-empid143{
+
+  display: flex;
+  
+  
+ 
+}  
+.appoinments-empid143{
+  display: flex;
+  flex-direction: row;
+  /* margin: 20px; */
+  width: 93vw;
+  margin-top: 10px;
+  padding: 20px 15px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.empiddt{
+  
+
+}
+
+.empid143appointmentscount {
+  /* margin-right: 1000px; */
+  font-size: 18px;
+  /* margin-top: 124px;
+  margin-bottom: 133px; */
+}
+
+.empid143searchbar {
+  display: flex;
+  align-items: center;
+   
+}
+
+.empid143inputsearch {
+  width: 250px;
+  
+  padding: 10px;
+  border: 1.5px solid #ccc;
+  outline: none;
+  border-right: none;
+  border-radius: 5px;
+}
+
+.empid143buttonsearch {
+  background-color: #007bff;
+  color: #fff;
+border: none;
+  border-radius: 5px;
+padding: 10px 5px;
+  cursor: pointer;
+  
+}
+
+.empid143buttonsearch:hover {
+  background-color: #0056b3;
+}
+
+.empid143input {
+  margin-top: 20px;
+}
+
+.empid143table {
+  /* width: 90vw; */
+  
+  /* margin: 20px 15px; */
+  
+}
+.appointment123:nth-child(even){
+  background-color: #ccc;
+  
+}
+.appointment123 tr:nth-child(even){
+ background-color: #702222;
+}
+
+.empid143head {
+  background-color: #ccc
+  
+}
+
+.empid143row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.empid143h123{
+  text-align: center;
+  padding: 8px;
+  border: 1px solid black;
+ 
+
+}
+
+
+
+.empid143b1 {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid black;
+ 
+ 
+}
+.empid143h123{
+  background-color: #1060b5!important;
+  color: white!important;
+}
+.empid143b1{
+  background-color: white;
+}
+.empid143b1 td:nth-child(even) {
+  background-color: #c65353;
+}
+
+
+.empid143row{
+  background-color: rgb(42, 87, 186);
+  color: white;
+}
+
+.empid143view {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.empid143view:hover {
+  background-color: #0056b3;
+}

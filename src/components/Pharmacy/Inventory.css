@@ -1,0 +1,125 @@
+/* .cont-OP {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;background-color: rgb(228, 220, 220);
+    height: 300px;
+  } */
+
+  .cont-OP{
+    margin-top: 10vh;
+  }
+  
+  .heading-table-OP {
+    display: flex;
+    background-color: rgb(143, 150, 200);
+    color: white;
+    width: flex;
+    margin-right: auto; 
+    cursor: pointer;
+  }
+  
+  .heading-cell-OP {
+    padding: 10px;
+    text-align: left;
+  }
+
+  .heading-cell-OP:hover{
+    background-color: rgb(75, 76, 170);
+  }
+
+  .heading-top-OP{
+    margin-right:1000px;
+    font-size: 23px;
+  }
+  
+
+  .searchbar-OP {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 200px;
+    margin-top: 10px;
+    margin-right: 1200px;
+  }
+  
+  .searchbar-OP input {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius:  5px;
+    padding: 5px;
+  }
+
+
+
+.data-table-OP {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .data-table-OP th, .data-table-OP td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .data-table-OP th {
+    background-color: rgb(143, 150, 200);
+    color: white;
+  }
+
+  .data-table-OP tbody tr:hover {
+    background-color:blue;
+  }
+  
+
+
+
+ 
+@media (max-width: 768px) {
+    .heading-table-OP {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .heading-cell-OP {
+      text-align: center;
+      padding: 10px;
+      border-right: none; 
+    }
+  
+    .heading-cell-OP:hover {
+      background-color: initial; 
+    }
+  
+    .searchbar-OP {
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 10px 0;
+    }
+  
+    .searchbar-OP input {
+      width: 100%;
+      max-width: none;
+    }
+  
+    .heading-top-OP {
+      text-align: center;
+      margin: 0;
+      font-size: 18px;
+    }
+  
+    .data-table-OP th,
+    .data-table td {
+      text-align: center;
+      padding: 5px;
+    }
+  
+    .data-table-OP th {
+      font-size: 14px;
+    }
+  
+    .data-table-OP tbody tr:hover {
+      background-color: initial; 
+    }
+  }

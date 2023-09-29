@@ -1,0 +1,314 @@
+.main-cont-PO-11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+.Listheading-PO-11{
+  font-size: 20px;
+}
+
+
+.but-PO-11 {
+  border-radius: 3px;
+  background-color: rgb(11, 122, 218);
+  height: 30px; 
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 55px;
+}
+
+.but-PO-11:hover {
+  background-color: rgb(10, 13, 171);
+}
+
+
+
+.contain-PO-11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(239, 235, 235);
+  padding: 20px;
+  width:1100px;
+
+}
+
+.grid-PO-11 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: flex;
+ 
+}
+
+.input-group-PO-11 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  
+}
+
+.category-input-PO-11 {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+
+}
+
+.search-container-PO-11 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.search-bar-PO-11 {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+/* .search-button {
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+ */
+.medicine-table-PO-11 {
+  width: 100%;
+  border-collapse: collapse;
+ 
+}
+
+.medicine-table-PO-11 th, .medicine-table-PO-11 td {
+  border: 1px solid rgb(207, 204, 204);
+  padding: 8px;
+  width: 700px;
+  text-align: center;
+  
+}
+
+
+
+/* Add hover effect to table rows */
+.medicine-table-PO-11 tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Change the color as desired */
+}
+
+
+
+
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .grid-PO-11 {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-left: 0;
+  }
+  
+  .search-contain-PO-11 {
+    margin-left: 0;
+  }
+  
+  .Listheading-PO-11 {
+    margin-right: 0;
+    text-align: center;
+  }
+  
+  .contain-PO-11 {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+/* Adjustments for larger screens */
+@media (min-width: 1200px) {
+  .grid-PO-11 {
+      display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-left: -500px;
+  }
+  
+  .search-contain-PO-11 {
+    margin-left: -900px;
+  }
+  
+  .Listheading-PO-11 {
+    margin-right: 1000px;
+    text-align: left;
+  }
+}
+
+/* Listmedicines.css */
+
+/* Main container */
+.main-cont-PO-11 {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+font-family: Arial, sans-serif;
+margin-top: 50px;
+}
+
+/* Heading */
+.Listheading-PO-11 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+hr {
+border: 1px solid #ccc;
+}
+
+/* Grid for input fields and buttons */
+.grid-PO-11 {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 10px;
+}
+
+.input-group-PO-11 {
+display: flex;
+flex-direction: column;
+}
+
+.input-group-PO-11 label {
+margin-bottom: 5px;
+font-weight: bold;
+}
+
+.input-group-PO-11 input {
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.but-PO-11 {
+padding: 8px 20px;
+background-color: #007BFF;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.but-PO-11:hover {
+background-color: #0056b3;
+}
+
+/* Search bar */
+.search-bar-PO-11 {
+padding: 8px;
+width: 100%;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+/* Medicine table */
+.medicine-table-PO-11 {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+
+.medicine-table-PO-11 th,
+.medicine-table-PO-11 td {
+padding: 10px;
+text-align: left;
+border-bottom: 1px solid #ccc;
+}
+
+.medicine-table-PO-11 th {
+background-color: #f2f2f2;
+}
+
+/* Stock alert button */
+.stock-alert-button {
+background-color: #ff6b6b;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.stock-alert-button:hover {
+background-color: #e64747;
+}
+
+/* Edit button */
+.edit-form button {
+background-color: #007BFF;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.edit-form button:hover {
+background-color: #0056b3;
+}
+
+/* Add Medicine Form */
+.add-medicine-form {
+border: 1px solid #ccc;
+border-radius: 4px;
+padding: 20px;
+margin-top: 20px;
+}
+
+.add-medicine-form form {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 10px;
+}
+
+.add-medicine-form label {
+font-weight: bold;
+}
+
+.add-medicine-form input {
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.add-medicine-form button {
+padding: 8px 20px;
+background-color: #007BFF;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.add-medicine-form button:hover {
+background-color: #0056b3;
+}
+
+/* Stock alert button */
+.stock-alert-button {
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+padding: 8px 12px;
+font-size: 18px;
+}
+
+.stock-alert-button.red {
+background-color: #f10a0a; /* Red color for stock less than 10 */
+}
+
+.stock-alert-button.green {
+background-color: #37a63a; /* Green color for stock greater than or equal to 10 */
+}
+
+.stock-alert-button:hover {
+opacity: 0.8;
+}

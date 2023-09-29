@@ -1,0 +1,243 @@
+.home{
+    background-color: black;
+    
+  }
+  .admin{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    
+  }
+ 
+  .signinpage{
+  height: 60px;
+  }
+
+  .doctorsignin{
+    box-sizing: border-box;
+  border: 4px solid whitesmoke; /* Add a border to the doctorsignin section */
+  margin-top: 45px;
+ height: 80%;
+  
+  }
+
+  .image-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .points-list {
+    list-style-type: none;
+    margin-left: 20px;
+    padding: 0;
+  }
+  
+  .points-list li {
+    font-size: large;
+    font-weight: bolder;
+    margin-bottom: 10px;
+  }
+
+  .imageheadinsg{
+    width: 60%;
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 30px;
+  }
+
+  .imagesection{
+    display: flex;
+    flex-direction: row;
+  }
+ 
+  .primary-button {
+      margin-top: 5rem;
+      margin-right: 1rem;
+      padding: .6rem;
+      width: 10rem;
+      background: #222;
+      border: none;
+      color: #fff;
+      font-size: 1.2rem;
+      transition: all .5s;
+      cursor: pointer;
+      text-transform: capitalize
+  }
+  
+  /***    Landing Page     ***/
+  .main-title,
+  .main-para {
+      color: #f1f1f1
+  }
+  
+  .main-title {
+      padding-top: 10rem;
+      font-size: 5rem;
+      font-family: 'Fascinate', cursive;
+      text-transform: uppercase
+  }
+  
+  .main-para {
+      font-size: 2.5rem;
+      text-Transform: capitalize
+  }
+  
+  #reg_btn span {
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+  }
+  
+  #reg_btn span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+  }
+  
+  #reg_btn:hover span {
+    padding-right: 25px;
+  }
+  
+  #reg_btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  /***    Login Page     ***/
+  .headingg{
+      text-align: center;
+      margin: 15px auto;
+      color: black;
+      font-size: 20px;
+  }
+    
+  .headinggs{
+    text-align: center;
+    margin: 15px auto;
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+}
+  
+  .forml {
+    width: 570px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 0.5pxpx solid #ccc;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+    height: 620px;
+    margin-top: 15px;
+  }
+
+  .form2 {
+    padding: 10px;
+    margin-right: 60%;
+  }
+
+  .form3 {
+    margin-left: 20%;
+    
+  }
+  
+    h2 {
+      margin-top: 0;
+    }
+    
+    form p {
+      margin-bottom: 15px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+    .right-label {
+      float: right;
+      font-size: 12px;
+      margin-top: 5px;
+    }
+    
+    #sub_btn {
+      padding: 10px 20px;
+      background-color: white;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #sub_btn:hover{
+      background-color: white;
+    }
+    footer {
+      margin-top: 20px;
+      text-align: center;
+      text-decoration: none;
+    }
+    
+    footer p {
+      margin: 5px 0;
+    }
+    
+    footer a {
+      text-decoration: none;
+      color: #f7f9fa;
+    }
+    
+  
+  /***    Register Page     ***/
+  #checkbox {
+      width: 1rem
+  }
+  
+  form span {
+      font-size: .8rem
+  }
+  
+  #reset_pass_lbl {
+      float: left
+  }
+  
+  /***    Home Page     ***/
+  .home-page-title {
+      color: #222
+  }
+  .buttonn{
+
+    background-color: black;
+    width:200px;
+    height: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+    
+  }
+  .buttonn:hover{
+    background-color: blue;
+   
+  }
+  .first{
+    color: #eafa0a;
+  }
+
+  .error-message{
+    color:red
+  }

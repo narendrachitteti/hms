@@ -1,0 +1,46 @@
+.create-purchase-order{
+    background-color: #f2f1f1;
+    margin-top: 10vh;
+}
+.header-cpo{
+    
+    text-align: start;
+}
+.stocklist-cpo{
+    justify-content: space-between;
+   
+    margin-right: 800px;
+}
+.stocklist-cpo1{
+    display: inline-block;
+    justify-content: space-between;
+     margin: 10px;
+}
+.stocklist-cposecond{
+    justify-content: space-between;
+    background-color: white;
+    /* margin-left: -700px; */
+   
+}
+.stocklist-cpo2{
+    display: inline-block;
+    justify-content: space-between;
+     margin: 10px;
+}
+.stocklist-table-cpo {
+  background-color: whitesmoke;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .stocklist-table-cpo th,
+.stocklist-table-cpo td {
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+}
+.stocklist-cpo-buttonsecond {
+    background-color: white;
+   float: right;
+  
+   
+}

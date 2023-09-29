@@ -1,0 +1,22 @@
+.PurchaseOrder-main {
+  margin-top: 10vh;
+}
+.table-dropdown {
+  width: 100%;
+  justify-content: space-between;
+  border-collapse: collapse;
+}
+.table-dropdown th,
+.table-dropdown td {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.searcjh{
+    width: 25% !important;
+}
+
+.OrderList-main{
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}

@@ -1,0 +1,35 @@
+/* styles.css */
+
+/* Define your styles here with class names ending with "sk14s" */
+
+.PatientListContainer-sk14s {
+  text-align: center;
+  /* margin-top: 20px; */
+  padding-top: 0%;
+ 
+}
+.heading56789{
+  padding-left: 32%;
+}
+.patients-main234{
+  width: 93%;
+  margin-left: 7%;
+}
+
+.PatientTable-sk14s {
+  width: 100%;
+  border-collapse: collapse;
+  /* margin-top: 20px; */
+}
+
+.PatientTable-sk14s,
+.PatientTable-sk14s th,
+.PatientTable-sk14s td {
+  border: 1px solid #ccc;
+}
+
+.PatientTable-sk14s th,
+.PatientTable-sk14s td {
+  padding: 10px;
+  text-align: left;
+}

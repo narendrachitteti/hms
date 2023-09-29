@@ -1,0 +1,204 @@
+/* InvoiceStock.css */
+
+.container-txj {
+   
+  background-color:#ccc;
+  margin-top: 65px;
+
+}
+
+.main-container-tjx1 {
+  background-color: #ccc;
+  text-align: left;
+  /* Add other styles as needed */
+}
+
+.header-text {
+  text-align: left;
+  color: black;
+}
+
+.header-line {
+  size: 10px; /* This won't work for hr, consider using border or height instead */
+}
+
+.input-row {
+  color:black;
+   width: 70%; 
+   background-color: #ccc;
+  
+}
+
+.input-container {
+  display: inline-block;
+  margin: 10px 30px;
+  align-items: center;
+  margin-bottom: 10px;
+  
+ 
+}
+
+.label-text {
+  width: 60%;
+  margin-right: 10px;
+}
+
+.input-field {
+  width: 60%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-txj {
+  background-color: rgb(81, 146, 174);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button-txj:hover {
+  color: black;
+}
+hr{
+  padding: px;
+  color: black;
+  background-color: black;
+}
+.second-container-txj{
+  background-color: white;
+  margin-top: 30px;
+}
+.input-container-1 {
+  display: inline-block;
+  width: 120px;
+  justify-self: auto;
+  
+}
+.input-container-1 input {
+  width:90%;
+}
+.input-container-2{
+  display:inline-block ;
+ justify-self: auto;
+}
+.input-container-2 input {
+  width:80%;
+}
+.button-nhy{
+  background-color: rgb(81, 146, 174);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+.button-nhy1{
+  color: rgb(81, 146, 174);
+  background-color:whitesmoke;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+.input-row-3 {
+  color:black;
+  
+   background-color: white;
+   text-align: left;
+  
+}
+.check-mnj{
+  align-items: center;
+}
+.input-container-checkbox {
+display: inline-block;
+}
+/* invoice.css */
+.invoice-table {
+width: 100%;
+border-collapse: collapse;
+}
+
+.invoice-table th,
+.invoice-table td {
+border: 1px solid #ddd;
+padding: 8px;
+text-align: center;
+}
+.container-table-tnx{
+display: flex;
+margin-top: 50px;
+}
+
+.invoice-table th {
+background-color: #f2f2f2;
+width: 100%;
+
+}
+.end-page-tnx {
+display: flex;
+
+}
+.Remarks-page-tnx{
+text-align: start;
+width:60%;
+}
+.rectangle-box{
+display: flex;
+background-color: white;
+width:80%;
+height:200px;
+
+}
+
+.Amount-table-table {
+width: 43%;
+/* border-collapse: collapse; */
+border: 1px solid black;
+margin-top: -207px;
+margin-left: 700px;
+}
+
+.Amount-table-table th, .Amount-table-tabletd {
+border: 1px solid #ddd;
+padding: 8px;
+
+text-align: center;
+}
+
+.Amount-table-table th {
+background-color: #f2f2f2;
+
+}
+
+.Amount-table-table tr:nth-child(even) {
+background-color: #f2f2f2;
+
+}
+.dot-tnx{
+width: 30px;
+margin-left: 10px;
+}
+.empty-tnx{
+width:40px;
+}
+.save-tnx{
+float: right;
+}
+.save-tn1{
+
+background-color:blue;
+color: white;
+border: none;
+padding: 8px 16px;
+border-radius: 4px;
+cursor: pointer;
+}
+.save-tnx1:hover{
+color:black ;
+
+}

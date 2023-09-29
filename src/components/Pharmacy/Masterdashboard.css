@@ -1,0 +1,119 @@
+/* InvoiceStock.css */
+
+.container-txj-11-ipog {
+   margin-top: 75px;
+  background-color:#ccc;
+}
+
+.main-container-tjx1-ipog {
+  background-color: #ccc;
+  text-align: left;
+
+}
+
+.header-text-ipog {
+  text-align: left;
+  color: black;
+}
+
+.header-line-ipog {
+  size: 10px; 
+}
+
+.input-row-ipog {
+  color:black;
+   width: 70%; 
+   background-color: #ccc;
+  
+}
+
+.input-container-ipog {
+  display: inline-block;
+  margin: 10px 30px;
+  align-items: center;
+  margin-bottom: 10px;
+  
+ 
+}
+
+.label-text {
+  width: 60%;
+  margin-right: 10px;
+}
+
+.input-field-ipog {
+  width: 60%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-txj-ipog {
+  background-color: rgb(81, 146, 174);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button-txj-ipog:hover {
+  color: black;
+}
+hr{
+  padding: px;
+  color: black;
+  background-color: black;
+}
+.second-container-txj-ipog{
+  background-color: white;
+  margin-top: 30px;
+}
+.input-container-1-ipog {
+  display: inline-block;
+  width: 120px;
+  justify-self: auto;
+  
+}
+.input-container-1-ipog input {
+  width:90%;
+}
+.input-container-2-ipog{
+  display:inline-block ;
+ justify-self: auto;
+}
+.input-container-2-ipog input {
+  width:80%;
+}
+.button-nhy{
+  background-color: rgb(81, 146, 174);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+.button-nhy1{
+  color: rgb(81, 146, 174);
+  background-color:whitesmoke;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+.input-row-3 {
+  color:black;
+  
+   background-color: white;
+   text-align: left;
+  
+}
+.check-mnj{
+  align-items: center;
+}
+.input-container-checkbox {
+ margin-top: -25px;
+ margin-left: 860px;
+  float:'right';
+}
