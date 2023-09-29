@@ -181,7 +181,7 @@ function App() {
           <Route path="/Homepage" element={<Homepage />} />
           <Route path="/Bills" element={<Bills />} />
           <Route path="/Patient" element={<Patient />} />
-          <Route path="/patient/:patientId/PatientNav" element={<PatientNav />} />
+          <Route path="/Patient/:patientId/PatientNav" element={<PatientNav />} />
           <Route path="/PatientDashboard" element={<PatientDashboard />} />
           <Route path="/Addpatient" element={<Addpatient />} />
           <Route path="/Existingpatient" element={<Existingpatient />} />

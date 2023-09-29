@@ -16,11 +16,10 @@ const pid= localStorage.getItem('id')
     setPopupVisible(false);
   };
 
-// In your Attachment component where you handle file uploads:
 const handleFileUpload = async (index, file) => {
   const formData = new FormData();
   formData.append('file', file);
-  formData.append('pid', pid); // Use the patient ID stored in local storage
+  formData.append('pid', pid); 
 
   try {
     const response = await fetch('http://localhost:3004/upload', {
@@ -47,28 +46,28 @@ const handleFileUpload = async (index, file) => {
 };
 
 
-  const handleSaveFile = async (index) => {
-    try {
-      const response = await fetch('http://localhost:3001/save ', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ index, filename: uploadedFilename }),
-      });
+const handleSaveFile = async (index) => {
+  try {
+    const response = await fetch('http://localhost:3004/save', { 
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ index, filename: uploadedFilename, pid }),
+    });
 
-      if (response.ok) {
-        console.log('File information saved successfully.');
-        alert('File information saved successfully.');
-      } else {
-        console.error('Error saving file information.');
-        alert('Error saving file information.');
-      }
-    } catch (error) {
-      console.error('Error saving file information:', error);
-      alert('Error saving file information: ' + error.message);
+    if (response.ok) {
+      console.log('File information saved successfully.');
+      alert('File information saved successfully.');
+    } else {
+      console.error('Error saving file information:', response.statusText);
+      alert('Error saving file information: ' + response.statusText);
     }
-  };
+  } catch (error) {
+    console.error('Error saving file information:', error);
+    alert('Error saving file information: ' + error.message);
+  }
+};
 
   return (
     <div>
@@ -96,7 +95,7 @@ const handleFileUpload = async (index, file) => {
                     />
                     <button
                       className="save-button"
-                      onClick={() => handleSaveFile(inputIndex)}
+                      onClick={() => handleSaveFile(inputIndex, pid)}
                     >
                       Save
                     </button>
